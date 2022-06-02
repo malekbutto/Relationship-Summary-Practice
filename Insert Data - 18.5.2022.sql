@@ -38,7 +38,7 @@ begin try
 --Delete from OrdersProducts
 	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (1,1,3)--laptop
 	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (4,2,2)--IPhone
-	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (3,6,3)--Printer
+	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (3,6,0)--Printer
 	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (5,3,4)--Mouse
 	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (2,5,6)--Speaker
 	insert into OrdersProducts (OrderId,ProductId,Quantity) Values (6,4,2)--Tablet
